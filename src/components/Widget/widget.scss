@@ -1,0 +1,92 @@
+.widget{
+    display: flex;
+    background-color: whitesmoke;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    height: 150px;
+    border-radius: 10px;
+
+    .left,.right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .order{
+        margin-left: 9%;
+        background-color: lavender; 
+        border-radius: 80%;
+        padding: 20px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .currency{
+        margin-left: 10%;
+        background-color: rgb(176, 243, 176);
+        color: rgb(3, 97, 3);
+        font-size: 110px; 
+        border-radius: 80%;
+        padding: 20px;
+        cursor: pointer;
+        margin-top: 10px; 
+    }
+    .title{
+       justify-content: center;
+        margin: 10px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #8c8282;
+    }
+    .counter{
+        font-size: 28px;
+        font-weight: 600;
+        color: #121010;
+    }
+    .percentage{
+        display: flex;
+        color: green ;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+        p{
+            color: grey;
+           margin: 2.5px;
+        }
+    }
+    .lesspercentage{
+        display: flex;
+        color: rgb(245, 21, 21) ;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+        p{
+            color: grey;
+           margin: 2.5px;
+        }
+    }
+    .balance{
+        margin-left: 10%;
+        background-color: rgb(153, 243, 223);
+        color: rgb(38, 18, 156);
+        font-size: 110px; 
+        border-radius: 80%;
+        padding: 20px;
+        cursor: pointer;
+        margin-top: 10px; 
+    }
+    .sales{
+        margin-left: 10%;
+        background-color: rgb(255, 160, 184); 
+        border-radius: 80%;
+        padding: 30px;
+        cursor: pointer;
+        margin-top: 10px; 
+        font-size: 70px; 
+    }
+}
+        
+       
